@@ -20,8 +20,8 @@ addons:
     
 
 install:
-    - pip3 install --user sphinx breathe sphinx-autobuild sphinx_rtd_theme recommonmark sphinx-markdown-tables
-    - pip3 install --user travis-sphinx
+    - pip3 install sphinx breathe sphinx-autobuild sphinx_rtd_theme recommonmark sphinx-markdown-tables
+    - pip3 install travis-sphinx
 
 script:
     - cd docs
