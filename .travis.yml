@@ -36,4 +36,4 @@ script:
 after_success:
     - git config user.name "dustinksi"
     - git config user.email "dustinksi@126.com"
-    - ghp-import -p docs/build/html -r "https://${GH_TOKEN}@github.com/dustinksi/DoxygenExmaple.git"
+    - ghp-import -p docs/build/html -f -r "https://${GH_TOKEN}@github.com/dustinksi/DoxygenExmaple.git"
