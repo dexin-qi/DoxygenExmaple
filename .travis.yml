@@ -29,6 +29,7 @@ script:
     - cd docs
     - doxygen Doxyfile
     - sphinx-build -b html -d build/doctrees source build/html
+    - cd ..
 
 after_success:
     - travis-sphinx deploy
