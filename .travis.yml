@@ -25,7 +25,8 @@ install:
 
 script:
     - cd docs
-    - build_doxy_sphinx.sh
+    - doxygen Doxyfile
+    - sphinx -b html -d build/doctrees source build/html
 
 after_success:
     - travis-sphinx deploy
