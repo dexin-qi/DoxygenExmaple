@@ -1,5 +1,22 @@
 language: python - "2.7"
 
+# This will run on Travis' 'new' container-based infrastructure
+sudo: false
+
+# Blacklist
+branches:
+  except:
+    - gh-pages
+
+addons:
+    apt:
+      packages:
+        - doxygen
+        - doxygen-doc
+        - doxygen-latex
+        - doxygen-gui
+        - graphviz
+    
 before_install:
     - wget http://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh -O miniconda.sh
     - chmod +x miniconda.sh
@@ -12,7 +29,6 @@ before_install:
 install:
     - conda install --yes python="2.7" sphinx
     - pip install --user travis-sphinx
-    - sudo apt install doxygen
 
 script:
     - docs/build_doxy_sphinx.sh
