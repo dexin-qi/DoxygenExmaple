@@ -23,6 +23,3 @@ add_executable(run
 target_link_libraries(run
     hello_world
 )
-
-
-add_subdirectory(docs)

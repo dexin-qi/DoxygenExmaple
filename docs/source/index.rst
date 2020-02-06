@@ -3,10 +3,13 @@
 Introduction
 =============
 
-Doxygen - Sphinx - GitPages
+Doxygen - Sphinx - GitPages --- by DustinKsi @XJTU
 
 .. image:: DoxyExmpl.png
-     :target: https://github.com/dustinksi/doxygenexmaple/blob/master/docs/source/images/DoxyExmpl.png
+     :target: https://github.com/dustinksi/DoxygenExmaple/blob/master/docs/source/images/DoxyExmpl.png
+
+.. image:: high_level_system_overview.png
+     :target: https://github.com/googlecartographer/cartographer/blob/master/docs/source/high_level_system_overview.png
 
 
 .. toctree::

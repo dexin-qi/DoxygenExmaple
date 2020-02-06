@@ -29,7 +29,9 @@ script:
     - cd docs
     - doxygen Doxyfile
     - sphinx-build -b html -d build/doctrees source build/html
-    - cd ..
+    - cd build/html
+    - touch .nojekyll
+    - cd ../../..
 
 after_success:
-    - travis-sphinx deploy
+    - ghp-import -p docs/build/html
