@@ -23,9 +23,9 @@ Purpose
 
 `DoxygenExample`_ is an example project for testing Doxygen Sphinx to GitPages.
 
-.. image:: doxy_exmpl.png
+.. image:: https://github.com/dustinksi/DoxygenExmaple/blob/master/docs/source/images/doxy_exmpl.png
      :target: https://github.com/dustinksi/DoxygenExmaple/blob/master/docs/source/images/doxy_exmpl.png
-     
+   
 .. _DoxygenExample: https://github.com/dustinksi/DoxygenExmaple.git
 
 
