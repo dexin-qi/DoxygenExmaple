@@ -2,4 +2,4 @@
 rm -rf xml/*
 doxygen Doxyfile
 rm -rf build/*
-travis-sphinx -b html -d build/doctrees source build/html
+sphinx -b html -d build/doctrees source build/html

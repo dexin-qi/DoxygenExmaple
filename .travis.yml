@@ -31,7 +31,10 @@ install:
     - pip install --user travis-sphinx
 
 script:
-    - docs/build_doxy_sphinx.sh
+    # - docs/build_doxy_sphinx.sh
+    - cd docs
+    - doxygen Doxyfile
+    - travis-sphinx build --source=source
 
 after_success:
     - travis-sphinx deploy
