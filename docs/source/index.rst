@@ -5,8 +5,8 @@ Introduction
 
 Doxygen - Sphinx - GitPages --- by DustinKsi @XJTU
 
-.. image:: https://github.com/dustinksi/DoxygenExmaple
-     :target: https://raw.githubusercontent.com/dustinksi/DoxygenExmaple/master/docs/source/images/doxy_exmpl.png
+.. image:: https://raw.githubusercontent.com/dustinksi/DoxygenExmaple/master/docs/source/images/doxy_exmpl.png
+     :target: https://github.com/dustinksi/DoxygenExmaple
 
 .. toctree::
    :caption: API REFERENCE
