@@ -6,4 +6,4 @@ doxygen Doxyfile
 if [ -d "./build" ];then
     rm -rf build
 fi
-sphinx -b html -d build/doctrees source build/html
+sphinx-build -b html -d build/doctrees source build/html

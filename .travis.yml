@@ -17,6 +17,8 @@ addons:
         - doxygen-gui
         - graphviz
         - python3-pip
+        - python3-sphinx
+        - python3-breathe
     
 
 install:
@@ -26,7 +28,7 @@ install:
 script:
     - cd docs
     - doxygen Doxyfile
-    - sphinx -b html -d build/doctrees source build/html
+    - sphinx-build -b html -d build/doctrees source build/html
 
 after_success:
     - travis-sphinx deploy
