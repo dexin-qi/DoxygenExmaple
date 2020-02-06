@@ -23,14 +23,14 @@ Purpose
 
 `DoxygenExample`_ is an example project for testing Doxygen Sphinx to GitPages.
 
-.. _DoxygenExample: https://github.com/dustinksi/doxygenexmaple.git
+.. _DoxygenExample: https://github.com/dustinksi/DoxygenExmaple.git
 
 Getting started
 ===============
 
 * You can ask a question by `creating an issue`_.
 
-.. _creating an issue: https://github.com/dustinksi/doxygenexmaple/issues/new?labels=question
+.. _creating an issue: https://github.com/dustinksi/DoxygenExmaple/issues/new?labels=question
 
 Contributing
 ============
@@ -38,7 +38,7 @@ Contributing
 You can find information about contributing to DoxygenExample at `our Contribution
 page`_.
 
-.. _our Contribution page: https://github.com/dustinksi/doxygenexmaple/blob/master/CONTRIBUTING.md
+.. _our Contribution page: https://github.com/dustinksi/DoxygenExmaple/blob/master/CONTRIBUTING.md
 
 .. |build| image:: https://travis-ci.org/dustinksi/doxygenexample.svg?branch=master
     :alt: Build Status
@@ -51,4 +51,4 @@ page`_.
 .. |license| image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
      :alt: Apache 2 license.
      :scale: 100%
-     :target: https://github.com/dustinksi/doxygenexmaple/blob/master/LICENSE
+     :target: https://github.com/dustinksi/DoxygenExmaple/blob/master/LICENSE
