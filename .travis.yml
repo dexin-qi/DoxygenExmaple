@@ -11,7 +11,7 @@ before_install:
 
 install:
     - conda install --yes python="2.7" sphinx
-    - pip install --user travis-sphinx breathe sphinx-autobuild sphinx_rtd_theme recommonmark sphinx-markdown-tables
+    - pip install --user travis-sphinx
     - apt install doxygen
 
 script:
