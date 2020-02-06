@@ -1,5 +1,9 @@
-# pip3 install breathe sphinx sphinx-autobuild sphinx_rtd_theme recommonmark sphinx-markdown-tables –user
-rm -rf xml/*
+if [ -d "./xml" ];then
+    rm -rf xml
+fi
 doxygen Doxyfile
-rm -rf build/*
+
+if [ -d "./build" ];then
+    rm -rf build
+fi
 sphinx -b html -d build/doctrees source build/html
