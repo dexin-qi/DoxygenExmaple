@@ -48,10 +48,10 @@ page`_.
     :alt: Build Status
     :scale: 100%
     :target: https://travis-ci.org/dustinksi/doxygenexample
-.. |docs| image:: https://readthedocs.org/projects/google-cartographer/badge/?version=latest
+.. |docs| image:: https://travis-ci.org/dustinksi/DoxygenExmaple.svg?branch=master
     :alt: Documentation Status
     :scale: 100%
-    :target: https://google-cartographer.readthedocs.io/en/latest/?badge=latest
+    :target: https://travis-ci.org/dustinksi/DoxygenExmaple
 .. |license| image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
      :alt: Apache 2 license.
      :scale: 100%
