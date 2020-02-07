@@ -11,6 +11,5 @@ Doxygen - Sphinx - GitPages --- by DustinKsi @XJTU
 .. toctree::
    :caption: API REFERENCE
    :maxdepth: 2
-
    api/cppapi_index
 
